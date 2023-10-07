@@ -1,9 +1,5 @@
 let actionbtns = document.querySelectorAll(".actionbtns");
 
-// const rock =document.getElementById("rock");
-// const paper =document.getElementById("paper");
-// const scissor =document.getElementById("scissor");
-
 const pscore =document.getElementById("pscore");
 const cscore =document.getElementById("cscore");
 
@@ -48,10 +44,8 @@ actionbtns.forEach(button =>
     // reflect textmsg of result & reflect in score card
     declareresult();
     
-    
-    
     function cchoice()
-{
+   {
     rand = Math.floor(Math.random()*3);
     if(rand===0)
     {   
@@ -106,28 +100,3 @@ function declareresult()
 
 });
 });
-
-
-
-
-// function pchoice()
-// {
-    //     rock.onclick=function()
-    //     {
-        //         img1.innerHTML=actionimg[0];
-        //         // img1.innerHTML="<img src='assets/rock.png'>";
-        //         pchoice=0;
-        //     }
-        //     paper.onclick=function()
-        //     {
-            //         img1.innerHTML=actionimg[1];
-            //         // img1.innerHTML="<img src='assets/paper.png'>";
-            //         pchoice=1;
-            //     }
-            //     scissor.onclick=function()
-            //     {
-                //         img1.innerHTML=actionimg[2];
-                //         // img1.innerHTML="<img src='assets/scissor.png'>";
-                //         pchoice=2;
-                //     }
-                // }
